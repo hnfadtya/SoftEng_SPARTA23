@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Hanif Aditya</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#Interest">Interest</a></li>
+          <li><a href="#Achievement">Achievement</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Hanif Aditya</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#Interest" onclick="toggleMenu()">Interest</a></li>
+          <li><a href="#Achievement" onclick="toggleMenu()">Achievement</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/IMG_2822.JPG" alt="Hanif Aditya's profile picture" />
+      </div>
+      <div class="section__text">
+        <h1 class="title">Hanif Aditya</h1>
+        <p class="section__text__p2">IF - Ganesha</p>
+        <p class="section__text__p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, veritatis nemo blanditiis velit minus expedita debitis voluptatibus, rerum deserunt autem ullam illo est illum neque rem odio inventore tempore? Rerum.</p>
+      </div>
+    </section>
+    <section id="Interest">
+      <h1 class="title">Interest</h1>
+      <div class="section-container">
+        <div class="Interest-details-container">
+          <div class="Interest-containers">
+            <div class="details-container">
+              <h3>Interest 1</h3>
+              <p>qwertyy</p>
+            </div>
+            <div class="details-container">
+              <h3>Interest 2</h3>
+              <p>qwertyy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Achievement">
+      <h1 class="title">Achievement</h1>
+      <div class="section-container">
+        <div class="Achievement-details-container">
+          <div class="Achievement-containers">
+            <div class="details-container">
+              <h3>Achievement 1</h3>
+              <p>qwertyy</p>
+            </div>
+            <div class="details-container">
+              <h3>Achievement 2</h3>
+              <p>qwertyy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Projects">
+      <h1 class="title">Projects</h1>
+      <div class="section-container">
+        <div class="Projects-details-container">
+          <div class="Projects-containers">
+            <div class="details-container">
+              <h3>Projects 1</h3>
+              <p>qwertyy</p>
+            </div>
+            <div class="details-container">
+              <h3>Projects 2</h3>
+              <p>qwertyy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#Interest">Interest</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
